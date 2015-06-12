@@ -63,7 +63,6 @@ public class SortTest {
 		assertEquals(expected, SortAndSearch.bubbleSort(Ints.toArray(numbers)));
 		timer.stop();
 		System.out.println("DiffTime : " + String.valueOf(timer.getElapsedMilliseconds()));
-
 	}
 
 	@Test
